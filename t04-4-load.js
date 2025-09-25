@@ -8,9 +8,10 @@ d3.csv("data/tvBrandCount.csv", d => {
 });
 
 /* Stub: will draw the chart in T04-5 */
-function createBarChart(data) {
-  console.log("createBarChart received", data.length, "rows");
-}
+// function createBarChart(data) {
+//   console.log("createBarChart received", data.length, "rows");
+// }
+
 /* Load CSV, Convert Type, Quick Check */
 d3.csv("data/tvBrandCount.csv", d => ({
     brand: d.brand,
