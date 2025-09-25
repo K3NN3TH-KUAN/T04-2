@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appliance Energy Consumption Australia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="logo-container" id="logo-home" style="cursor:pointer;">
+                <img src="PowerIcon.png" alt="Appliance Energy Consumption" class="logo-img"/>
+            </span>
+            <ul class="nav-menu">
+                <li><span class="nav-link" data-page="home" style="cursor:pointer;">Home</span></li>
+                <li><span class="nav-link" data-page="televisions" style="cursor:pointer;">Televisions</span></li>
+                <li><span class="nav-link" data-page="about" style="cursor:pointer;">About Us</span></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Appliance Energy Consumption</h1>
+    <div id="content"></div>
+    <!-- Give the SVG a size so shapes can be seen -->
+    <svg width="300" height="150"></svg>
+    <!-- Load D3 first, then your D3 code file -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="energy-d3.js"></script>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Appliance Energy Consumption Australia</h1>
+            <p class="hero-subtitle">Your guide to energy-efficient appliances in the Australian market</p>
+
+        </section>
+        <section class="content">
+            <div class="container">
+                <h2>Understanding Energy Consumption in Australian Homes</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Energy Star Ratings</h3>
+                        <p>Learn about Australia's mandatory Energy Rating Label system that helps consumers make informed decisions about appliance efficiency. The more stars, the more energy efficient the appliance.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Average Household Consumption</h3>
+                        <p>The average Australian household consumes approximately 6,000-7,000 kWh of electricity per year, with appliances accounting for about 30% of total energy use.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Cost Savings</h3>
+                        <p>Choosing energy-efficient appliances can save Australian households up to $500 per year on electricity bills, while reducing environmental impact.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kenneth Yang Sheng KUAN | <em>I used GitHub Copilot to help me generate the code as my starting point</em></p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
